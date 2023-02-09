@@ -32,5 +32,9 @@ class Math {
 		$diff = $num1 - $num2;
 		return $diff;
 	}
-	
+
+    public static function multiplication($num1, $num2){
+        $result = $num1 * $num2;
+        return $result;
+    }
 }
