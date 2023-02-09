@@ -19,6 +19,10 @@ class Math {
 	 * @param float $b
 	 * @return float
 	 */
+    public static function mult($num1, $num2){
+        $prod = $num1 * $num2;
+        return $prod;
+    }
 	public static function add($num1, $num2){
 		$sum = $num1 + $num2;
 		return $sum;
