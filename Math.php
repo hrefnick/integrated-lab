@@ -33,4 +33,9 @@ class Math {
         $result = $num1 * $num2;
         return $result;
     }
+
+    public static function division($num1, $num2){
+        $answer = $num2 / $num1;
+        return $answer;
+    }
 }
